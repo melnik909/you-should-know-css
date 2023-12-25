@@ -1,6 +1,8 @@
 # You Should Know CSS — the list of questions to level up your CSS skill
 CSS is a language with a bunch of topics. There is a developer who knows all unlikely. Honestly, we don't need to know it to do our job. But there is a piece of CSS without that we can't do. It is the goal of my questions.
 
+These questions aren't suitable for beginners. You should have at least one year of experience. Two years is better. This time is enough to understand why I wrote these questions. 
+
 ## What the difference from others
 There is a heap of articles with front-end interview questions that include CSS topics. The problem is that 99% of them check terminology or superficial knowledge. My questions do a deep dive to check your knowledge about nuances. 
 
