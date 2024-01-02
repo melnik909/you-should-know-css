@@ -6,6 +6,9 @@ These questions aren't suitable for beginners. You should have at least one year
 ## What the difference from others
 There is a heap of articles with front-end interview questions that include CSS topics. The problem is that 99% of them check terminology or superficial knowledge. My questions do a deep dive to check your knowledge about nuances. 
 
+## Languages
+* [English](https://github.com/melnik909/you-should-know-css/blob/main/en.md)
+
 ## About the author
 I'm a teacher who helps to learn CSS. I teach people with different knowledge and backgrounds. Students, accountants, kindergarten teachers, developers, etc were my students. I was able to help all of them to level up their CSS skill. Also, I'm the author of a few online boot camps, a speaker at conferences and meetups and a content creator.
 
