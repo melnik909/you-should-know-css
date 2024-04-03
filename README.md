@@ -10,7 +10,7 @@ There is a heap of articles with front-end interview questions that include CSS 
 * [English](https://github.com/melnik909/you-should-know-css/blob/main/en.md)
 
 ## About the author
-I'm a teacher who helps to learn CSS. I teach people with different knowledge and backgrounds. Students, accountants, kindergarten teachers, developers, etc were my students. I was able to help all of them to level up their CSS skill. Also, I'm the author of a few online boot camps, a speaker at conferences and meetups and a content creator.
+I'm a teacher who helps to learn CSS. I teach people with different knowledge and backgrounds. Students, accountants, kindergarten teachers, developers, etc were my students. I was able to help all of them to level up their CSS skill. Also, I'm the author of a few online boot camps, a speaker at conferences and meetups and a content creator. [You can read what my readers say](https://github.com/melnik909/melnik909/?tab=readme-ov-file#-readers-say).
 
 ## Copyright
 The materials herein are all Stas Melnikov.
