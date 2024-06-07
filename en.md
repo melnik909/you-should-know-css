@@ -151,7 +151,7 @@ The child elements inside the parent element with `display: flex` display one by
 }
 ```
 
-The `width` property of the `.child` element is equal to the `width` property of the parent element. So the computed value of the `width` property is `1000px`.
+The `width` property of the `.child` element is equal to the `width` property of the parent element. So the computed value of the `width` property is `1600px`.
 
 The `height` property of the child element inside of the parent with `display: grid` fills all space. If the parent has a few items space will be shared between them equally. So the computed value of the `height` property of the child element is `20rem / 2 = 10rem`, i.e `10 * 16 = 160px`.
 
