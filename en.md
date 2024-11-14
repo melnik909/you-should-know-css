@@ -419,12 +419,3 @@ We should wrap code using the `prefers-reduced-motion` media feature. It'll help
   }
 }
 ``` 
-
-## What is the computed value of the `font-size` property?
-```css
-html {
-  font-size: calc(1rem + 1px);
-}
-```
-
-Default browser font size is `16px` in most cases. If it isn't changed the computed value of the `font-size` property will be `17px`.
