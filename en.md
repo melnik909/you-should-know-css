@@ -27,34 +27,6 @@ The `:is()` pseudo-class function helps browsers select the highest from a given
 
 True. The `:where()` pseudo-class function nulles specificity.  So the `.label` selector has more specificity. It's why the computed value of the `color` property is `red`. 
 
-## What is the computed value of the `background-color` property?
-```html
-<body>
-  <div id="container" class="container">content</div>
-</body>
-```
-```css
-@layer basic, components;
-
-.container { 
-  width: 1rem; 
-  height: 1rem; 
-}
-
-@layer components {
-  .container { 
-    background-color: pink; 
-  }
-}
-
-@layer basic { 
-  #container { 
-    background-color: blue; 
-  }
-}
-```  
-Layers are defined in order of priority. The last is more high.  So the answer is `pink`.
-
 ## What color will the square be in the following example? 
 ```css
 .container {
