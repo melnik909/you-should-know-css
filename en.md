@@ -27,7 +27,7 @@ The `:is()` pseudo-class function helps browsers select the highest from a given
 
 True. The `:where()` pseudo-class function nulles specificity.  So the `.label` selector has more specificity. It's why the computed value of the `color` property is `red`. 
 
-## What color will the square be in the following example? 
+## What will a shape be displayed in the following example? 
 ```css
 .container {
   display: inline;
@@ -37,7 +37,7 @@ True. The `:where()` pseudo-class function nulles specificity.  So the `.label` 
 }
 ```
 
-If the element has `display: inline` the `width` and `height` properties don't have an effect. We won't see a square. 
+If the element has `display: inline` the `width` and `height` properties don't have an effect. We won't see a square. We won't see anything.
 
 ## What is the algorithm for calculating the computed value of the `width` property of the `.child` element?
 ```html
