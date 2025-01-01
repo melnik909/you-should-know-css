@@ -402,20 +402,3 @@ p {
 A CSS custom property inherits a value from the same custom property defined for parent elements. If a custom property is omitted browsers will use fallback. 
 
 In our example the `--background-color` property is omitted from parent elements. So browsers use the fallback, i.e the `inherit` keyword that inherits the `green` value from the `background-color` property of the `body` element. 
-
-## Make the `scroll-behavior` property safe with vestibular motion disorders.
-```css
-html {
-  scroll-behavior: smooth;
-}
-```
-
-We should wrap code using the `prefers-reduced-motion` media feature. It'll help to display smooth scrolling only if users allow it in OS settings.
-```css
-@media (prefers-reduced-motion: no-preference) {
-
-  html {
-    scroll-behavior: smooth;
-  }
-}
-``` 
