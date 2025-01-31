@@ -7,7 +7,7 @@
 }
 ```
 
-The `:is()` pseudo-class function helps browsers select the highest from a given selectors list. In our example, a more high selector is `#container`. The specificity of this selector is `0, 1, 0, 0`. It will be used for the whole at-rule.
+The `:is()` pseudo-class function helps browsers select the highest from a given selectors list. In our example, a more high selector is `#container`. The specificity of this selector is `1, 0, 0`. It will be used for the whole at-rule.
 
 ## The computed value of the `color` property is `red`. True or false?
 ```html 
