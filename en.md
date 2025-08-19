@@ -223,52 +223,6 @@ body {
 }
 ```
 
-## How can we use the `gap` property to replace the `margin` property?
-```html
-<body>
-  <div class="parent">
-    <div class="child">content</div>
-  </div>
-</body>
-```
-```css
-.parent {
-  display: inline-flex;
-}
-
-.parent::before,
-.parent::after {
-  content: "";
-  width: 1rem;
-  height: 1rem;
-  background-color: #222;
-} 
-
-.parent::before {
-  margin-right: 1rem;
-}
-
-.parent::after {
-  margin-left: 1rem;
-}
-```
-
-We should define the `gap` property for the `.parent` element.
-```css
-.parent {
-  display: inline-flex;
-  gap: 1rem;
-}
-
-.parent::before,
-.parent::after {
-  content: "";
-  width: 1rem;
-  height: 1rem;
-  background-color: #222;
-} 
-```
-
 ## The computed value of the `display` property is `block`. True or false?
 ```css
 .container {
